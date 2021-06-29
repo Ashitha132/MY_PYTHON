@@ -1,0 +1,5 @@
+word=input("Enter a sequence of comma-separated numbers")
+ll=word.split(',')
+l=list(map(int,ll))
+print("The list of numbers is ",l)
+print("The tuple of numbers is ",tuple(l))
